@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu a {
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu img {
+    width: 20px;
+}
+
+
+.info {
+    padding-top: 13px;
+    padding-left: 60px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    gap: 30px;
+    margin-top: 25px;
+    width: 855px;
+    margin-left: 160px;
+    height: 85px;
+    border-radius: 15px;
+    background-color: rgb(223, 217, 217)
+}
+
+.info_1 {
+    width: 300px;
+    height: 40px;
+}
+
+.info_1 h1 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.info_1 a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.iphone {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.iphone_left h1 {
+    font-size: 17px;
+    color: rgb(180, 117, 0);
+    font-weight: 300;
+}
+
+.iphone_left h2 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.iphone_left p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#asp1 p {
+    font-size: 8px;
+}
+
+#asp2 p {
+    font-size: 10px;
+}
+
+.iphone_right {
+    text-align: end;
+}
+
+.iphone_right button {
+    margin: 5px;
+}
+
+#asp1 {
+    width: 150px;
+    border-radius: 15px;
+    height: 28px;
+    border: none;
+    background-color: rgb(217, 217, 217);
+}
+
+#asp2 {
+    width: 220px;
+    border-radius: 15px;
+    height: 28px;
+    border: none;
+    background-color: rgb(217, 217, 217);
+}
+
+.model_text {
+    padding-bottom: 20px;
+}
+
+
+.model_text h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.model_text h1 span {
+    font-size: 22px;
+    color: gray;
+}
+
+.models {
+    padding-top: 100px;
+}
+
+
+.uzuk1 {
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uzuk2 {
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.uzuk3 {
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 100px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+}
+
+.uzuk3 .text1 h4 {
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+
+.tilofurosh {
+    display: grid;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.text1 h4 {
+    font-size: 20px;
+}
+
+.color_text {
+    text-align: center;
+}
+
+.color_text2 {
+    padding-left: 45px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.color_text h5 {
+    font-size: 22px;
+}
+
+.color_text h5 span {
+    font-size: 22px;
+    color: gray;
+}
+
+.nosfurosh {
+    padding-top: 80px;
+}
+
+.btns button {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.Natural_Titanium {
+    background-color: #797982;
+}
+
+.Blue_Titanium {
+    background-color: #5B798E;
+}
+
+.White_Titanium {
+    background-color: #FCFFF0;
+}
+
+.Black_Titanium {
+    background-color: #171718;
+}
+
+.aziza_iphonchi {
+    padding-top: 90px;
+}
+
+.natural {
+    background-image: url(./img/natural.jpg);
+    height: 500px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.white {
+    background-image: url(./img/white.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+}
+
+.black {
+    background-image: url(./img/black.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+}
+
+.blue {
+    background-image: url(./img/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+}
+
+.aziza_images {
+    background-image: url(./img/glavniycha.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+}
