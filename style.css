@@ -261,6 +261,7 @@ img {
     background-size: cover;
     height: 500px;
     width: 700px;
+    
 }
 
 .black {
@@ -288,6 +289,7 @@ img {
     background-size: cover;
     height: 500px;
     width: 700px;
+
 }
 
 .mac_text h1 {
@@ -408,4 +410,40 @@ img {
     background-position: center;
     border: none;
     transition: 3s ease;
+}
+
+.pamit_text h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.pamit_text h1 span {
+    font-size: 22px;
+    color: gray;
+}
+
+.pamit {
+    padding-top: 100px;
+}
+
+.pamit_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+.pamit_buttons button {
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.pamit_buttons button .txt{
+    width: 140px;
 }

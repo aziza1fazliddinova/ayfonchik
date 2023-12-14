@@ -9,6 +9,12 @@ let img3 = document.querySelector('.blue')
 let img4 = document.querySelector('.white')
 let img5 = document.querySelector('.black')
 
+let a = document.querySelector('.tranzision')
+
+a.onclick =() =>{
+    a.style.transition = ('3s ease')
+}
+
 let h1 = document.querySelector('color_text2')
 
 button1.onclick = () => {
