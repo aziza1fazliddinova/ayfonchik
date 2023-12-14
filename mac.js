@@ -52,7 +52,6 @@ four_tb.onclick = () => {
 
 }
 
-
 one.onclick = () => {
     one.style.border = '2px solid #007FFF'
     four_tb.style.border = ' 2px solid #CFE7FF '
