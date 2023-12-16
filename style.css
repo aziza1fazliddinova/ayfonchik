@@ -262,7 +262,7 @@ img {
     background-size: cover;
     height: 500px;
     width: 700px;
-    
+
 }
 
 .black {
@@ -445,6 +445,163 @@ img {
     background-color: white;
 }
 
-.pamit_buttons button .txt{
+.pamit_buttons button .txt {
     width: 140px;
+}
+
+.bg_model {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.dialog {
+    width: 900px;
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.close {
+    background-color: white;
+    border: none;
+}
+
+.close img {
+    width: 50px;
+    height: 30px;
+}
+
+.dialog_text {
+    text-align: center;
+}
+
+.dialog_text h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dialog_text p {
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dialog_text a {
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dialog_btn {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dialog_btn button {
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+}
+
+.text-field {
+    margin-top: 60px;
+    margin-left: 120px;
+    padding: 10px;
+    width: 600px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom: 70px;
+
+}
+
+.text-field p {
+    font-size: 15px;
+    color: #a6a7a9;
+}
+
+.text-field p span {
+    font-size: 18px;
+    color: #000;
+}
+
+#dialog-h1 {
+    text-align: center;
+}
+
+.dialog-proMax {
+    height: 100px;
+    width: 900px;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 0px, 15px;
+}
+
+.open-proMax img {
+    width: 50px;
+    height: 40px;
+}
+
+.open-proMax {
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.kot {
+    width: 900px;
+    height: fit-content;
+    padding: 20px;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.window_diolog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    background-color: #dcdcdc;
+    padding: 20px;
+    display: none;
+}
+
+.left1 {
+    padding-bottom: 200px;
+
+}
+
+.proMax_txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.window_text{
+    display: flex;
+}
+.right1{
+    padding-left: 250px;
+}
+
+.right1 h1{
+    padding-bottom: 10px;
+}
+.right1 p{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }

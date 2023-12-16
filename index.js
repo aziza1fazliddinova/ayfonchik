@@ -11,6 +11,28 @@ let img5 = document.querySelector('.black')
 
 let a = document.querySelector('.tranzision')
 
+let model = document.querySelector('.model')
+let modal_w = document.querySelector('.bg_model')
+let close = document.querySelector('.close')
+
+let diolog = document.querySelector('.dialog-proMax')
+let bg_diolog = document.querySelector('.window_diolog')
+let open = diolog.querySelector('.open-proMax')
+
+diolog.onclick = () => {
+    bg_diolog.style.display = 'flex'
+}
+open.onclick= () => {
+    bg_diolog.style.display=='none'
+}
+
+model.onclick = () =>{
+    modal_w.style.display = 'flex'
+}
+close.onclick = ()=>{
+    modal_w.style.display= 'none'
+}
+
 a.onclick =() =>{
     a.style.transition = ('3s ease')
 }
@@ -23,8 +45,6 @@ button1.onclick = () => {
 
 button2.onclick = () => {
     img1.classList = 'img3 blue'
-    
-
 }
 
 button3.onclick = () => {
